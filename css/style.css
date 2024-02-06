@@ -2,5 +2,17 @@
 padding: 0;
 margin: 0;
 box-sizing: border-box;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.wrapper {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: rgb(241, 241, 241);
+}

@@ -27,8 +27,19 @@
     <script type="text/JavaScript" src="./js/main.js" defer></script>
 </head>
 <body>
+    <div id="app">
+        <h1 class="text-center my-4">Vue Mail List</h1>
     
-
+        <div class="wrapper text-center">
+            <div class="row g-2">
+                <div class="card col-6" v-for="mail in mails">
+                    <div class="card-body">
+                        {{ mail }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Link Bootstrap JavaScript -->
